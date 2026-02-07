@@ -1,0 +1,24 @@
+{
+  "name": "courseworkagent",
+  "version": "1.0.0",
+  "description": "AI agent that types coursework into Google Docs at human-like speed across multiple documents and tabs",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "courseworkagent": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "PLAYWRIGHT_BROWSERS_PATH=$HOME/.cache/ms-playwright node src/cli.js",
+    "type": "PLAYWRIGHT_BROWSERS_PATH=$HOME/.cache/ms-playwright node src/cli.js",
+    "run": "PLAYWRIGHT_BROWSERS_PATH=$HOME/.cache/ms-playwright node src/cli.js",
+    "ui": "PLAYWRIGHT_BROWSERS_PATH=$HOME/.cache/ms-playwright node src/server.js"
+  },
+  "keywords": ["google-docs", "typing", "automation", "coursework"],
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "express": "^4.21.0"
+  }
+}

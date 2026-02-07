@@ -1,0 +1,20 @@
+{
+  "options": {
+    "sequential": true,
+    "wpm": 45,
+    "simulateTypos": false,
+    "punctuationPauses": true
+  },
+  "jobs": [
+    {
+      "essay": "./essays/history-essay.txt",
+      "docUrl": "https://docs.google.com/document/d/YOUR_DOC_ID_1/edit",
+      "wpm": 45
+    },
+    {
+      "essayContent": "Your essay text can go here directly.\n\nNo need for a file when using essayContent.",
+      "docUrl": "https://docs.google.com/document/d/YOUR_DOC_ID_2/edit",
+      "wpm": 50
+    }
+  ]
+}
